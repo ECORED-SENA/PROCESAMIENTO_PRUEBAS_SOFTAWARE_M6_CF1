@@ -218,140 +218,131 @@ export default {
   },
   referencias: [
     {
-      referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+      referencia: 'Alarcón, C. (2019). Pruebas de <i>software</i>. EcuRed.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.ecured.cu/index.php?title=Pruebas_de_software&oldid=3536813',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'Amrani, D. (2019). Niveles de pruebas de <i>software</i>. La región vulnerable.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://medium.com/la-region-vulnerable/niveles-de-pruebas-de-software-ac9a888311f7',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Cognodata. (2019). 12 principios de la metodología <i>agile</i> en el desarrollo de proyectos. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://www.cognodata.com/blog/principios-metodologia-agile-desarrollo-proyectos',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Díaz, D. (2013). TDD, BDD & Test de aceptación. Adictos al trabajo. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://www.adictosaltrabajo.com/2013/05/27/tdd-bdd-test-de-aceptacion/',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+        'Garay, G. (2013). Téc D P - Técnicas basadas en la estructura o técnicas de caja blanca (K4). Scrum-QA. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'http://scrum-qa.blogspot.com/2013/04/tecnicas-de-diseno-de-pruebas-tecnicas_12.html',
+    },
+    {
+      referencia: 'PMOinformatica. (2016). Pruebas de caja negra ISTQB. ',
+      link:
+        'http://www.pmoinformatica.com/2016/04/pruebas-caja-negra-istqb.html',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Romero, E. (2018). Actividades del desarrollo de <i>software</i> en el modelo de cascada. ResearchGate. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://www.researchgate.net/figure/Figura-1-Actividades-del-desarrollo-de-software-en-el-modelo-de-cascada_fig1_320935254',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Automatización',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'proceso en el cual se utilizan herramientas tecnológicas casi sin la necesidad de la intervención de personas. ',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'CAST',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'significa “prueba de <i>software</i> asistida por computadora”, es la herramienta que se usa para aplicar las pruebas.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Caso de uso',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'es una herramienta en la cual se define un flujo con una serie de secuencias que dan paso a un resultado de valor observable. ',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Escenario',
       significado:
-        'en <i>software</i> de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'lugar con una serie de condiciones y variables, en el cual se desarrolla un suceso o acción. ',
     },
     {
-      termino: 'Moda',
+      termino: '<i>Framework</i>',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'es un marco de trabajo, representa un conjunto de conceptos, funciones, prácticas y criterios que están regulados y estandarizados. Generalmente, orientados a resolver temas en particular y que sirven para resolver problemáticas con características similares.',
     },
     {
-      termino: 'Diseña',
+      termino: '<i>Happy path</i>',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'es un anglicismo y es usado para expresar el escenario ideal de un producto software o una funcionalidad, representa un escenario donde todo ocurre según las especificaciones técnicas y nada sale mal, logrando de esta manera el objetivo esperado.',
     },
     {
-      termino: 'DIseño',
+      termino: 'Módulo',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'es una parte de un producto <i>software</i>, de las muchas cosas que debe realizar un programa para cumplir con funciones o tareas. ',
     },
     {
-      termino: 'Tipología',
+      termino: '<i>Mock</i>',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'son recursos y objetos que están preprogramados para que cumplan con una expectativa en específico, dado esto, siempre retornan un valor estático para una invocación puntual. ',
     },
     {
-      termino: 'Bidimensional',
+      termino: '<i>Plugin</i>',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'es un componente o aplicación que presenta una integración o sinergia con otra, generalmente se usan para agregar una nueva función. ',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Requisito',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'atributo, cualidad, circunstancia, cosa o comportamiento que es necesario para algo. ',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'SUT',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'el Sistema Bajo Prueba (SUT) es el producto software que representa todos los actores, en sí, clases, paquetes, módulos. ',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Bolaños, D., Sierra, A. y Alarcón, M. (2007). Pruebas de software y JUnit. Un análisis en profundidad y ejemplos prácticos. Pearson Prentice Hall.',
+      tipo:
+        'Libro - Capítulo 1: Fundamentos de las pruebas de software (p. 21 - 32).',
+      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=4716&pg=21',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'Contreras, M., Herrera, M. y Gallardo, O. Capítulo III Pruebas Automáticas para Evaluar Cursos de Programación de Computadores. Tecnológico de Antioquia.',
+      tipo:
+        'Libro - Capítulo I análisis de las metodologías ágiles para el desarrollo de software',
+      link:
+        'https://dspace.tdea.edu.co/bitstream/handle/tdea/1251/INGENIERIA%20VOLUMEN%203%20FINAL.pdf?sequence=1&isAllowed=y#page=30',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
+        'Pérez, Y., Gallegos, J., Zapata, S., Ccama, D. y Choque, R. (2020). Design Thinking en la Planificación de Pruebas de Software. Innovación y Software. Revista Innovación y Software, 1(2), p. 40-51. ',
+      tipo: 'Artículo',
+      link: 'https://revistas.ulasalle.edu.pe/innosoft/article/view/24/13',
     },
     {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+      texto:
+        'Uribe, C. (2020). Desarrollo de aplicaciones web y pruebas de software. Tecnológico de Antioquia.',
+      tipo: 'Documento',
+      link:
+        'https://dspace.tdea.edu.co/bitstream/handle/tdea/1081/INFORME%20FINAL.pdf?sequence=1&isAllowed=y',
     },
   ],
   creditos: {
