@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Preparación de las pruebas',
     descripcionCurso:
-      'En este módulo el aprendiz comprenderá los conceptos fundamentales del plan de pruebas de software, cuáles son los tipos de pruebas, tipos de incidentes, errores, bugs y escenarios. Con esta información, el aprendiz será capaz de identificar los diferentes escenarios y componentes de software para establecer el plan de pruebas. ',
+      'En este módulo el aprendiz comprenderá los conceptos fundamentales del plan de pruebas de <i>software</i>, cuáles son los tipos de pruebas, tipos de incidentes, errores, <i>bugs</i> y escenarios. Con esta información, el aprendiz será capaz de identificar los diferentes escenarios y componentes de <i>software</i> para establecer el plan de pruebas. ',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
   },
@@ -23,7 +23,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Generalidades de las pruebas de software',
+        titulo: 'Generalidades de las pruebas de <i>software</i>',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -41,13 +41,13 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Objetivos de las pruebas de software',
+            titulo: 'Objetivos de las pruebas de <i>software</i>',
             hash: 't_1_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Ciclo de ejecución de las pruebas de software',
+            titulo: 'Ciclo de ejecución de las pruebas de <i>software</i>',
             hash: 't_1_4',
           },
           {
@@ -65,7 +65,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.7',
-            titulo: 'Niveles de aplicación de las pruebas de software',
+            titulo: 'Niveles de aplicación de las pruebas de <i>software</i>',
             hash: 't_1_7',
           },
           {
@@ -77,7 +77,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.9',
-            titulo: 'Herramientas y soportes de las pruebas de software',
+            titulo: 'Herramientas y soportes de las pruebas de <i>software</i>',
             hash: 't_1_9',
           },
         ],
@@ -113,19 +113,20 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Estándares en pruebas de software',
+            titulo: 'Estándares en pruebas de <i>software</i>',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Test Driven Development',
+            titulo: '<i>Test Driven Development</i>',
             hash: 't_3_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.3',
-            titulo: 'Documentación de la aplicación de prueba de software',
+            titulo:
+              'Documentación de la aplicación de prueba de <i>software</i>',
             hash: 't_3_3',
           },
           {
@@ -141,7 +142,7 @@ export default {
         icono: 'far fa-file-alt',
         numero: '4',
         titulo:
-          'Tipos de técnicas de pruebas de software y herramientas para su aplicación',
+          'Tipos de técnicas de pruebas de <i>software</i> y herramientas para su aplicación',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -173,7 +174,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '5.4',
-            titulo: 'Bug',
+            titulo: '<i>Bug</i>',
             hash: 't_5_4',
           },
         ],
@@ -185,123 +186,6 @@ export default {
         titulo: 'Plan de pruebas',
         desarrolloContenidos: true,
         subMenu: [],
-      },
-      {
-        nombreRuta: 'tema7',
-        icono: 'far fa-file-alt',
-        numero: '7',
-        titulo: 'Componentes',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Encabezados',
-            hash: 'encabezados',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Párrafos',
-            hash: 'parrafos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Botones',
-            hash: 'botones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Listas',
-            hash: 'listas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Tablas',
-            hash: 'tablas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Imagen',
-            hash: 'imagen',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.7',
-            titulo: 'Imagen Infográfica',
-            hash: 'imagen_infografica',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.8',
-            titulo: 'Video',
-            hash: 'video',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.9',
-            titulo: 'Bloques de texto destacado',
-            hash: 'texto_destacado',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.10',
-            titulo: 'Sliders',
-            hash: 'sliders',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.11',
-            titulo: 'Acordiones',
-            hash: 'acordiones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.12',
-            titulo: 'Pestañas o Tabs',
-            hash: 'tabs',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.13',
-            titulo: 'Líneas de tiempo',
-            hash: 'lineas_tiempo',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.14',
-            titulo: 'Pasos',
-            hash: 'pasos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.15',
-            titulo: 'Llamados a la acción',
-            hash: 'llamados_accion',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.16',
-            titulo: 'Tarjetas',
-            hash: 'tarjetas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.17',
-            titulo: 'Tarjetas con número',
-            hash: 'tarjeta_numero',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.18',
-            titulo: 'Modal',
-            hash: 'modal',
-          },
-        ],
       },
     ],
     subMenu: [
@@ -397,7 +281,7 @@ export default {
     {
       termino: '<em>Áectores</em>',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'en <i>software</i> de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
     },
     {
       termino: 'Moda',

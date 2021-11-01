@@ -12,13 +12,13 @@
         figure
           img(src='@/assets/curso/tema3/img01.svg') 
       .col-lg-6.d-flex.align-items-center
-        p.mb-0 Estos aportan a la mejora de los procesos, entregando recomendaciones de mejores prácticas, teorías y lineamientos aplicables a un contexto determinado, para las pruebas de software también se cuentan con estándares que sirven como guía y referencia.
+        p.mb-0 Estos aportan a la mejora de los procesos, entregando recomendaciones de mejores prácticas, teorías y lineamientos aplicables a un contexto determinado, para las pruebas de <i>software</i> también se cuentan con estándares que sirven como guía y referencia.
     Separador
    
     #t_3_1.titulo-segundo
-      h2 3.1 Estándares en pruebas de software
+      h2 3.1 Estándares en pruebas de <i>software</i>
     p.mb-4 El objetivo de trabajar bajo un marco de estándares es hacer uso de documentos, artefactos y métodos que han sido validados previamente por entidades y organizaciones a nivel internacional. Entre estos es posible destacar el estándar IEEE-829 de 2008, que posteriormente fue reemplazado por la ISO/IEC/IEEE 29119-3:2013,  la cual será reemplazada por la ISO/IEC/IEEE FDIS 29119-3; esta última está actualmente en desarrollo. 
-    p.mb-4 En la actualidad podemos hacer referencia a la ISO/IEC/IEEE 29119-3:2013, en la cual se han definido una serie de ítems acordados internacionalmente para la aplicación y ejecución de pruebas de software para cualquier organización, incluye plantillas y admite las pruebas dinámicas, pruebas funcionales, no funcionales, pruebas manuales, pruebas automatizadas, pruebas con y sin secuencias de comandos. Los artefactos definidos en la ISO/IEC/IEEE 29119-3:2013 se pueden utilizar en cualquier momento del ciclo de vida del desarrollo de software. 
+    p.mb-4 En la actualidad podemos hacer referencia a la ISO/IEC/IEEE 29119-3:2013, en la cual se han definido una serie de ítems acordados internacionalmente para la aplicación y ejecución de pruebas de <i>software</i> para cualquier organización, incluye plantillas y admite las pruebas dinámicas, pruebas funcionales, no funcionales, pruebas manuales, pruebas automatizadas, pruebas con y sin secuencias de comandos. Los artefactos definidos en la ISO/IEC/IEEE 29119-3:2013 se pueden utilizar en cualquier momento del ciclo de vida del desarrollo de <i>software</i>. 
     p.mb-5 La ISO/IEC/IEEE 29119-3:2013 está compuesta de 5 partes:
     figure
       .video
@@ -26,11 +26,11 @@
     Separador
 
     #t_3_2.titulo-segundo
-      h2 3.2 Test Driven Development
+      h2 3.2 <i>Test Driven Development</i>
     .row.justify-content-center.mb-5
       .col-lg-7
-        p.mb-4 Es el desarrollo dirigido por pruebas (TDD por sus siglas en inglés), es un proceso de desarrollo relativamente nuevo, que está comenzando a ganar terreno y a ser conocido en el ámbito del desarrollo de software en las organizaciones a nivel mundial. Se basa en evidencias anecdóticas y en una serie de evaluaciones empíricas. Hablando del desarrollo tradicional, las pruebas se usan para validar y verificar la calidad del software, y su creación se realiza después de que existe la funcionalidad. 
-        p.mb-4 En TDD, las pruebas, adicionalmente al tema de validación y verificación, se usan con fines de especificación, donde primero se desarrolla la prueba y posteriormente la funcionalidad. Esto permite que la calidad del software aumente y la productividad del desarrollador mejore, dado que se lleva un mejor esfuerzo en depurar y se avanza rápidamente con el progreso del producto software. 
+        p.mb-4 Es el desarrollo dirigido por pruebas (TDD por sus siglas en inglés), es un proceso de desarrollo relativamente nuevo, que está comenzando a ganar terreno y a ser conocido en el ámbito del desarrollo de <i>software</i> en las organizaciones a nivel mundial. Se basa en evidencias anecdóticas y en una serie de evaluaciones empíricas. Hablando del desarrollo tradicional, las pruebas se usan para validar y verificar la calidad del <i>software</i>, y su creación se realiza después de que existe la funcionalidad. 
+        p.mb-4 En TDD, las pruebas, adicionalmente al tema de validación y verificación, se usan con fines de especificación, donde primero se desarrolla la prueba y posteriormente la funcionalidad. Esto permite que la calidad del <i>software</i> aumente y la productividad del desarrollador mejore, dado que se lleva un mejor esfuerzo en depurar y se avanza rápidamente con el progreso del producto <i>software</i>. 
         p.mb-0 En el siguiente recurso de aprendizaje se presentan los beneficios del desarrollo guiado por pruebas (TDD):
       .col-lg-5
         figure
@@ -54,13 +54,13 @@
     .row.justify-content-center
       .col-lg-10
         LineaTiempoD.color-acento-contenido
-          .row.justify-content-center(numero="1" titulo="Crear el test")
+          .row.justify-content-center(numero="1" titulo="Crear el <i>test</i>")
             .col-lg-3
               figure
                 img(src='@/assets/curso/tema3/img05.svg') 
             .col-lg-7
-              p.mb-4 En primera instancia, se deben crear las pruebas, las cuales deben atender cada una de las nuevas funcionalidades o características definidas en los requisitos de software. 
-              p.mb-4 En este primer paso, es muy importante que el desarrollador comprenda a la perfección la especificación de requisitos, dado que la discrepancia entre lo que entendió y lo que el producto software requiere impactará la calidad de la prueba y asimismo la calidad del producto. 
+              p.mb-4 En primera instancia, se deben crear las pruebas, las cuales deben atender cada una de las nuevas funcionalidades o características definidas en los requisitos de <i>software</i>. 
+              p.mb-4 En este primer paso, es muy importante que el desarrollador comprenda a la perfección la especificación de requisitos, dado que la discrepancia entre lo que entendió y lo que el producto <i>software</i> requiere impactará la calidad de la prueba y asimismo la calidad del producto. 
               p.mb-0 Cabe resaltar que la diferencia de estas pruebas con las pruebas unitarias es que estas últimas se hacen observando el código cuando la funcionalidad ya se encuentra implementada. Por otro lado, en el TDD, el enfoque se pone en los requisitos, porque el código aún no se ha creado.
           .row.justify-content-center(numero="2" titulo="Ejecutar las pruebas y comprobar en qué fallan")
             .col-lg-3
@@ -94,8 +94,8 @@
     Separador
 
     #t_3_3.titulo-segundo
-      h2 3.3 Documentación de la aplicación de prueba de software
-    p.mb-4 La documentación de productos de software son artefactos importantes, que permiten transferir y comunicar aspectos que, al revisar o inspeccionar un sistema, no se pueden entender rápidamente y suelen ser complicados.
+      h2 3.3 Documentación de la aplicación de prueba de <i>software</i>
+    p.mb-4 La documentación de productos de <i>software</i> son artefactos importantes, que permiten transferir y comunicar aspectos que, al revisar o inspeccionar un sistema, no se pueden entender rápidamente y suelen ser complicados.
     p.mb-5 Esta se puede categorizar en función de las personas, roles o grupos a los cuales está dirigida:
     
     TabsB.color-primario.mb-5
@@ -103,8 +103,8 @@
         .row.justify-content-center
           .col-lg-7
             h4 Documentación para los desarrolladores
-            p.mb-4 Es usada para la implementación del producto de software y principalmente para su futuro mantenimiento. Con este tipo de documentación, se busca hacer transferencia de la arquitectura, estructura, el comportamiento que tiene el producto, los componentes, las partes, los frameworks y las librerías. Esto conlleva comprender rápidamente el mismo y que la curva de aprendizaje del proyecto y del negocio, al momento de integrar un nuevo desarrollador al proyecto o que alguien asuma la responsabilidad de un desarrollo previamente construido, no sea muy pronunciada. Cabe resaltar que entre más grande es el proyecto, más importante es el manejo adecuado de la documentación. 
-            p.mb-0 Recordemos que la documentación debe estar incluida en todas las fases del desarrollo de software, desde los requerimientos, análisis, diseño, programación, pruebas, etc.
+            p.mb-4 Es usada para la implementación del producto de <i>software</i> y principalmente para su futuro mantenimiento. Con este tipo de documentación, se busca hacer transferencia de la arquitectura, estructura, el comportamiento que tiene el producto, los componentes, las partes, los <i>frameworks</i> y las librerías. Esto conlleva comprender rápidamente el mismo y que la curva de aprendizaje del proyecto y del negocio, al momento de integrar un nuevo desarrollador al proyecto o que alguien asuma la responsabilidad de un desarrollo previamente construido, no sea muy pronunciada. Cabe resaltar que entre más grande es el proyecto, más importante es el manejo adecuado de la documentación. 
+            p.mb-0 Recordemos que la documentación debe estar incluida en todas las fases del desarrollo de <i>software</i>, desde los requerimientos, análisis, diseño, programación, pruebas, etc.
           .col-lg-3
             figure
               img(src='@/assets/curso/tema3/img12.svg') 
@@ -112,8 +112,8 @@
         .row.justify-content-center
           .col-lg-7
             h4 Documentación para los usuarios
-            p.mb-4 Es toda aquella que necesita el usuario para la instalación, el despliegue, el aprendizaje y el uso del producto software.  Este tipo de información se puede constituir por guías de instalación, manuales de usuario, manuales de producto, guías de mensajes, manuales de referencia.
-            p.mb-0 En caso de que los usuarios sean desarrolladores, los documentos mencionados anteriormente van acompañados de ejemplos de integración, uso de bibliotecas o efectos no evidentes en las implementaciones y que pueden alterar el performance. 
+            p.mb-4 Es toda aquella que necesita el usuario para la instalación, el despliegue, el aprendizaje y el uso del producto <i>software</i>.  Este tipo de información se puede constituir por guías de instalación, manuales de usuario, manuales de producto, guías de mensajes, manuales de referencia.
+            p.mb-0 En caso de que los usuarios sean desarrolladores, los documentos mencionados anteriormente van acompañados de ejemplos de integración, uso de bibliotecas o efectos no evidentes en las implementaciones y que pueden alterar el <i><i>performance</i></i>. 
           .col-lg-3
             figure
               img(src='@/assets/curso/tema3/img13.svg')
@@ -121,7 +121,7 @@
         .row.justify-content-center
           .col-lg-7
             h4 Documentación para los administradores o soporte técnico
-            p.mb-0 Denominado también manual de operaciones, este tipo de documentos contiene la información del producto software de la que no hace uso el usuario final, donde se puede encontrar una lista de errores, procedimientos de recuperación, problemas de compatibilidad, entre otras anotaciones que sean importantes y que pueden variar con la evolución de las tecnologías.  
+            p.mb-0 Denominado también manual de operaciones, este tipo de documentos contiene la información del producto <i>software</i> de la que no hace uso el usuario final, donde se puede encontrar una lista de errores, procedimientos de recuperación, problemas de compatibilidad, entre otras anotaciones que sean importantes y que pueden variar con la evolución de las tecnologías.  
           .col-lg-3
             figure
               img(src='@/assets/curso/tema3/img14.svg')
