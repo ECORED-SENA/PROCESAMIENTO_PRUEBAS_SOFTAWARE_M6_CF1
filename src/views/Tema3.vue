@@ -44,7 +44,7 @@
     .row.justify-content-center.mb-5
       .col-lg-7.p-5(style="background-color:#F8EAFF")
         div.BorTit.mb-2 
-          p.mb-0 <b>Figura 3</b>
+          p.mb-0 <b>Figura 4</b>
           i Flujo de TDD
         figure
           img(src='@/assets/curso/tema3/img03.png') 
