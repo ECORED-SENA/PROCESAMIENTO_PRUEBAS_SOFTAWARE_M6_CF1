@@ -43,9 +43,34 @@ figcaption
   background-color: #F3DEFE
   border-left: 8px solid #D07EFC
 
-.t1-div2
+.t1-div2-1
+  position: relative
   background-color: #EAFEFF
-  border-left: 8px solid #7FF9FF
+  border-left: 10px solid #7FF9FF
+.t1-div2-2
+  position: relative
+  background-color: #EAFEFF
+  border-left: 10px solid #7FF9FF
+
+.t1-div2-1:before
+  content: '1';
+  display: block;
+  width: 25px;
+  height: 10px;
+  position: absolute;
+  top: 16px;
+  left: -10px;
+
+.t1-div2-2:before
+  content: '2';
+  display: block;
+  width: 25px;
+  height: 10px;
+  position: absolute;
+  top: 16px;
+  left: -10px;
+  
+
 
 .t1-div3
   background-color: #E4FEFF
@@ -65,3 +90,11 @@ figcaption
   background-color: #ECFEFF
   border: 3px solid  #DDF4FE
   border-radius: 5px
+
+.t1-tab1
+  background-color: #EBFEFF
+  border-radius: 10px
+  border: 3px solid #EBF6FF
+
+.t1-acordion .tarjeta
+  background-color: #F6F6F6

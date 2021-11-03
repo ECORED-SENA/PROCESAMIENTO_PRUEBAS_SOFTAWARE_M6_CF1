@@ -94,22 +94,22 @@
         p.mb-0 Cualquier error en el <i>software</i> derivará en una falla que debe ser detectada a tiempo, por lo cual las pruebas deben certificar que se cuenta con el resultado esperado en la ejecución, o de lo contrario reportarlo para su corrección. Los principales objetivos que se buscan con la fase de prueba de <i>software</i> son:
     
     TabsA.color-acento-contenido
-      .tarjeta--gris.p-4(titulo="Establecer nivel de calidad")
+      .tarjeta.t1-tab1.p-4(titulo="Establecer nivel de calidad")
         h4 Establecer nivel de calidad
         p.mb-0 Establecer el nivel de calidad del producto <i>software</i>.
-      .tarjeta--gris.p-4(titulo="Determinar planes de mejora")
+      .tarjeta.t1-tab1.p-4(titulo="Determinar planes de mejora")
         h4 Determinar planes de mejora
         p.mb-0 Determinar planes de mejora o refactorizaciones para solucionar problemas encontrados, y gestionar adecuadamente el tiempo de construcción.
-      .tarjeta--gris.p-4(titulo="Adquirir producto con estado de madurez")
+      .tarjeta.t1-tab1.p-4(titulo="Adquirir producto con estado de madurez")
         h4 Adquirir producto con estado de madurez
         p.mb-0 No realizar la adquisición de un producto <i>software</i> hasta que tenga un estado de madurez y estabilidad alto, con la finalidad de minimizar riesgos. 
-      .tarjeta--gris.p-4(titulo="Minimizar los riesgos")
+      .tarjeta.t1-tab1.p-4(titulo="Minimizar los riesgos")
         h4 Minimizar los riesgos
         p.mb-4 Minimizar el riesgo de dar soporte a usuarios insatisfechos, tal cosa es secuela de liberar un producto inmaduro e inestable. Esto es un riesgo considerable, dado que afecta la imagen de la entidad desarrolladora y la del producto, perdiendo credibilidad. 
-      .tarjeta--gris.p-4(titulo="Minimizar los costos")
+      .tarjeta.t1-tab1.p-4(titulo="Minimizar los costos")
         h4 Minimizar los costos
         p.mb-0 Minimizar costos de mantenimiento. Las pruebas de <i>software</i> en fases tempranas permiten identificar oportunamente fallos, por lo cual se podrá determinar un plan de correctivos de forma rápida. 
-      .tarjeta--gris.p-4(titulo="Reconocer lecciones aprendidas")
+      .tarjeta.t1-tab1.p-4(titulo="Reconocer lecciones aprendidas")
         h4 Reconocer lecciones aprendidas
         p.mb-0 Las pruebas de <i>software</i> generan una serie de lecciones aprendidas, las cuales permiten emplearse como apoyo para la mejora de procesos y desarrollo de los diferentes productos. 
 
@@ -163,31 +163,32 @@
     #t_1_4.titulo-segundo
       h2 1.4 Ciclo de ejecución de las pruebas de <i>software</i>
 
-    LineaTiempoC.color-secundario(text-small)
-      .row.justify-content-center(titulo="Definición")
-        .col-lg-3
-          figure
-            img(src='@/assets/curso/tema1/img09.svg') 
-        .col-lg-6
-          p.mb-0 Los procedimientos se deben definir a partir de los casos de prueba, buscando reflejar en su ejecución. 
-      .row.justify-content-center(titulo="Automatización")
-        .col-lg-3
-          figure
-            img(src='@/assets/curso/tema1/img10.svg') 
-        .col-lg-6
-          p.mb-0 Se debe generar la automatización de procedimientos y procesos mediante la creación de componentes y/o elementos de prueba. 
-      .row.justify-content-center(titulo="Creación del plan de prueba")
-        .col-lg-3
-          figure
-            img(src='@/assets/curso/tema1/img11.svg') 
-        .col-lg-6
-          p.mb-0 Con el cual se definen estrategias, recursos, elementos y componentes necesarios para la ejecución de las pruebas. 
-      .row.justify-content-center(titulo="Resultados")
-        .col-lg-3
-          figure
-            img(src='@/assets/curso/tema1/img12.svg') 
-        .col-lg-6
-          p.mb-0 Por último, como resultado se obtienen los defectos, errores u omisiones detectadas en la ejecución de las pruebas o, en caso contrario, las pruebas exitosas a las cuales se puede certificar su nivel de calidad y satisfacción.
+    .tarjeta--gris(style="border-radius: 10px").p-4 
+      LineaTiempoC.color-secundario(text-small)
+        .row.justify-content-center(titulo="Definición")
+          .col-lg-3
+            figure
+              img(src='@/assets/curso/tema1/img09.svg') 
+          .col-lg-6
+            p.mb-0 Los procedimientos se deben definir a partir de los casos de prueba, buscando reflejar en su ejecución. 
+        .row.justify-content-center(titulo="Automatización")
+          .col-lg-3
+            figure
+              img(src='@/assets/curso/tema1/img10.svg') 
+          .col-lg-6
+            p.mb-0 Se debe generar la automatización de procedimientos y procesos mediante la creación de componentes y/o elementos de prueba. 
+        .row.justify-content-center(titulo="Creación del plan de prueba")
+          .col-lg-3
+            figure
+              img(src='@/assets/curso/tema1/img11.svg') 
+          .col-lg-6
+            p.mb-0 Con el cual se definen estrategias, recursos, elementos y componentes necesarios para la ejecución de las pruebas. 
+        .row.justify-content-center(titulo="Resultados")
+          .col-lg-3
+            figure
+              img(src='@/assets/curso/tema1/img12.svg') 
+          .col-lg-6
+            p.mb-0 Por último, como resultado se obtienen los defectos, errores u omisiones detectadas en la ejecución de las pruebas o, en caso contrario, las pruebas exitosas a las cuales se puede certificar su nivel de calidad y satisfacción.
     Separador
 
     #t_1_5.titulo-segundo
@@ -205,15 +206,15 @@
 
     .row.justify-content-center.mb-5
       .col-lg-6.d-flex
-        div.t1-div2.p-3
+        div.t1-div2-1.p-3
           p.mb-0 <b>Basados en casos de uso</b>
           p.mb-0 Son pruebas del sistema, de tal manera que se realizan pruebas de caja negra, comprobando con esto el comportamiento del sistema hacia el usuario de forma externa.
       .col-lg-6.d-flex
-        div.t1-div2.p-3
+        div.t1-div2-2.p-3
           p.mb-0 <b>Basados en las realizaciones de los casos de uso del diseño</b>
           p.mb-0 Corresponden a pruebas de integración, en lo cual se prueba el sistema como caja blanca, verificando cómo interactúan los componentes de forma interna.  
     
-    AcordionA(tipo="b" clase-tarjeta="tarjeta")
+    AcordionA.t1-acordion(tipo="b" clase-tarjeta="tarjeta")
       .row(titulo="Escenarios")
         .col-lg-12
           p.mb-4 Los escenarios son una instancia o una representación de un caso de uso, de tal manera que permiten ejecutar un flujo completo de eventos de la funcionalidad descrita. El flujo básico de un caso de uso se define como un escenario, y este por lo general representa un <i>happy path</i>, entre otros. Cada flujo alterno se define como un escenario alterno, que puede llegar a ser un <i>happy path</i> o un <i>error path</i>. Se puede llegar a la conclusión que un caso de uso describe diferentes escenarios de uso y estos pueden definirse de la siguiente manera:

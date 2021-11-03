@@ -34,7 +34,7 @@
         p.mb-0 En el siguiente recurso de aprendizaje se presentan los beneficios del desarrollo guiado por pruebas (TDD):
       .col-lg-5
         figure
-          img(src='@/assets/curso/tema3/img02.svg') 
+          img(src='@/assets/curso/tema3/img16.svg') 
     figure.mb-5 
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -47,7 +47,8 @@
           p.mb-0 <b>Figura 4</b>
           i Flujo de TDD
         figure
-          img(src='@/assets/curso/tema3/img03.png') 
+          img(src='@/assets/curso/tema3/img17.svg') 
+          figcaption Nota. Adaptada de Amrani (2019).
 
     p.mb-5 Amplíe la información sobre cada uno de los pasos del TDD.
 
