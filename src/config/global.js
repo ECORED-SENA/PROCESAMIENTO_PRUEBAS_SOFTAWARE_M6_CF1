@@ -150,25 +150,25 @@ export default {
         nombreRuta: 'tema5',
         icono: 'far fa-file-alt',
         numero: '5',
-        titulo: 'Conceptos de aplicación de pruebasa',
+        titulo: 'Conceptos de aplicación de pruebas',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '5.1',
-            titulo: 'Feature',
+            titulo: '<i>Feature</i>',
             hash: 't_5_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '5.2',
-            titulo: 'Issues',
+            titulo: '<i>Issues</i>',
             hash: 't_5_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '5.3',
-            titulo: 'Hotfix',
+            titulo: '<i>Hotfix</i>',
             hash: 't_5_3',
           },
           {
@@ -189,6 +189,12 @@ export default {
       },
     ],
     subMenu: [
+      {
+        nombreRuta: 'actividad',
+        icono: 'far fa-question-circle',
+        titulo: 'Actividad didáctica',
+        desarrolloContenidos: true,
+      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -319,15 +325,13 @@ export default {
     {
       texto:
         'Bolaños, D., Sierra, A. y Alarcón, M. (2007). Pruebas de software y JUnit. Un análisis en profundidad y ejemplos prácticos. Pearson Prentice Hall.',
-      tipo:
-        'Libro - Capítulo 1: Fundamentos de las pruebas de software (p. 21 - 32).',
+      tipo: 'Libro',
       link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=4716&pg=21',
     },
     {
       texto:
         'Contreras, M., Herrera, M. y Gallardo, O. Capítulo III Pruebas Automáticas para Evaluar Cursos de Programación de Computadores. Tecnológico de Antioquia.',
-      tipo:
-        'Libro - Capítulo I análisis de las metodologías ágiles para el desarrollo de software',
+      tipo: 'Pdf',
       link:
         'https://dspace.tdea.edu.co/bitstream/handle/tdea/1251/INGENIERIA%20VOLUMEN%203%20FINAL.pdf?sequence=1&isAllowed=y#page=30',
     },
@@ -358,7 +362,28 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura -Regional Santander',
+      },
+      {
+        nombre: 'Gustavo Rodríguez',
+        cargo: 'Experto temático',
+        centro: 'SENA Colombo Alemán',
+      },
+      {
+        nombre: 'Giovanna Andrea Escobar Ospina',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de Servicios de Salud - Regional Antioquia',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Revisora metodológica y pedagógica',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Darío González',
+        cargo: 'Corrección de estilo',
+        centro: 'Centro Agropecuario La Granja - Regional Tolima ',
       },
     ],
     desarrolloProducto: [
@@ -366,43 +391,72 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios-  Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'María Natalia Maldonado Delgado',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
+        nombre: 'Camilo Andrés Bolaño Rey',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Carmen Alicia Martínez Torres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodriguez Rodriguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy María Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Andrés Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Edgar Mauricio Cortés',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Jhana Johanna Bustillo Ardila',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios  - Regional Tolima',
       },
     ],
   },

@@ -12,8 +12,8 @@
     p.mb-4 Se invita a revisar el siguiente video para que comprenda algunas indicaciones iniciales del proceso de aprendizaje y los elementos de abordaje acerca de la planeación de pruebas y sus generalidades.
 
     figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      .video      
+        iframe(width="1255" height="706" src="https://www.youtube.com/embed/avJUQTsf9cM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.justify-content-center.imagen-fondo(:style="{'background-image': `url(${require('@/assets/curso/introduccion/img02.svg')})`}")
       .col-lg-5.d-flex.align-items-center

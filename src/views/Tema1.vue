@@ -55,31 +55,31 @@
     .row.justify-content-center
       .col-lg-3
         .tarjeta-avatar
-          img(src='@/assets/curso/tema1/img04.svg' alt='AvatarTop')          
-          .t1.tarjeta.color-acento-contenido
-            .p-4
-              h2.mb-0 Ortogonalidad
+          img(src='@/assets/curso/tema1/img04.svg' alt='AvatarTop') 
+          .t1.tarjeta.color-acento-contenido.w-100
+            .p-4.pt-5
+              h4.mb-1 Ortogonalidad
               p.mb-0 No tener casos que dependan de funcionalidades u otros escenarios.
       .col-lg-3
         .tarjeta-avatar
           img(src='@/assets/curso/tema1/img05.svg' alt='AvatarTop')          
-          .t1.tarjeta.color-primario
-            .p-4
-              h2.mb-0 Efectividad
+          .t1.tarjeta.color-primario.w-100
+            .p-4.pt-5
+              h4.mb-1 Efectividad
               p.mb-0 Permitir la definición de elementos de entrada que permitan determinar diferentes fallos.
       .col-lg-3
         .tarjeta-avatar
           img(src='@/assets/curso/tema1/img06.svg' alt='AvatarTop')          
-          .t1.tarjeta.color-acento-contenido
-            .p-4
-              h2.mb-0 Ejemplaridad
+          .t1.tarjeta.color-acento-contenido.w-100
+            .p-4.pt-5
+              h4.mb-1 Ejemplaridad
               p.mb-0 Que “con poco se pruebe mucho”.
       .col-lg-3
         .tarjeta-avatar
           img(src='@/assets/curso/tema1/img07.svg' alt='AvatarTop')          
-          .t1.tarjeta.color-primario
-            .p-4
-              h2.mb-0 Claridad
+          .t1.tarjeta.color-primario.w-100
+            .p-4.pt-5
+              h4.mb-1 Claridad
               p.mb-0 Que permita revelar fallas de manera clara.  
 
     Separador
@@ -93,7 +93,7 @@
       .col-lg-6
         p.mb-0 Cualquier error en el <i>software</i> derivará en una falla que debe ser detectada a tiempo, por lo cual las pruebas deben certificar que se cuenta con el resultado esperado en la ejecución, o de lo contrario reportarlo para su corrección. Los principales objetivos que se buscan con la fase de prueba de <i>software</i> son:
     
-    TabsA.color-acento-contenido
+    TabsA.color-acento-contenido.mb-5
       .tarjeta.t1-tab1.p-4(titulo="Establecer nivel de calidad")
         h4 Establecer nivel de calidad
         p.mb-0 Establecer el nivel de calidad del producto <i>software</i>.
@@ -113,6 +113,7 @@
         h4 Reconocer lecciones aprendidas
         p.mb-0 Las pruebas de <i>software</i> generan una serie de lecciones aprendidas, las cuales permiten emplearse como apoyo para la mejora de procesos y desarrollo de los diferentes productos. 
 
+    p.mb-0 En conclusión, es posible decir que entre más pronto se apliquen mecanismos de prueba en el proceso de desarrollo, más fácilmente podrá evitarse que el proyecto se salga del tiempo y presupuesto planeado, pues se podrán detectar los problemas originados en las fases tempranas del proceso, que son los que menor impacto tienen, se debe recordar que a mayor tiempo de desarrollo, mayor impacto al realizar ajustes o cambios. 
     Separador
 
     #t_1_2.titulo-segundo
@@ -141,7 +142,7 @@
       li 
         .t1.lista-ol--cuadro__vineta
           span 1
-        | Detectar errores o defectos en el <i>software</i>.
+        p.mb-0 Detectar errores o defectos en el <i>software</i>.
       li 
         .t1.lista-ol--cuadro__vineta
           span 2
@@ -153,7 +154,7 @@
       li 
         .t1.lista-ol--cuadro__vineta
           span 4
-        | Generar un seguimiento y asegurar que los defectos encontrados se han corregido antes de liberar el <i>software</i> al cliente.
+        p.mb-0 Generar un seguimiento y asegurar que los defectos encontrados se han corregido antes de liberar el <i>software</i> al cliente.
       li 
         .t1.lista-ol--cuadro__vineta
           span 5
@@ -162,6 +163,8 @@
 
     #t_1_4.titulo-segundo
       h2 1.4 Ciclo de ejecución de las pruebas de <i>software</i>
+
+    p.mb-5 La ejecución de pruebas de software está compuesta por diversas actividades, cada una con sus artefactos y ejecutores, con lo cual se busca completar el ciclo de pruebas, las cuales son
 
     .tarjeta--gris(style="border-radius: 10px").p-4 
       LineaTiempoC.color-secundario(text-small)
@@ -283,7 +286,7 @@
     Separador
 
     #t_1_7.titulo-segundo
-      h2 1.7 Niveles de aplicació5n de las pruebas de <i>software</i>
+      h2 1.7 Niveles de aplicación de las pruebas de <i>software</i>
     .row.justify-content-center.mb-5
       .col-lg-5
         h4 Los niveles de pruebas están categorizados por las fases de diseño, teniendo en cuenta la planificación de los requisitos funcionales, hasta las pruebas anteriores a la puesta en producción.
@@ -332,14 +335,14 @@
           .col-lg-6
             h4 Pruebas unitarias
             p.mb-0 Estas pruebas se enfocan en validar elementos de un producto <i>software</i>, como componentes/unidades/piezas, de forma individual e independiente, dado el principio SDLC. Cualquier bloque de código, sea procedimiento, función, método, constructor, clase o módulo, puede ser una unidad y deberá ser considerado y sometido a pruebas unitarias, con lo cual se podrá determinar su comportamiento y validarlo versus el resultado esperado. Estas pruebas deben ser las primeras que se lleven a cabo en la fase de desarrollo y las deberán implementar los desarrolladores.
-      .py-3.py-md-4(titulo="Pruebas de integración")
+      .py-3.py-md-4(titulo="Pruebas de integración - <i>Perfomance Testing</i>")
         .row.justify-content-center
           .col-lg-3
             figure
               img(src='@/assets/curso/tema1/img18.svg') 
           .col-lg-6
-            h4 Pruebas de integración
-            p.mb-0 Estas pruebas se enfocan en validar diferentes módulos o componentes de un producto <i>software</i> de tal manera que se valide como un grupo funcional. Una aplicación de <i>software</i>, un sistema de información o una aplicación web, entre otros productos <i>software</i>, están compuestos por diferentes componentes, módulos y submódulos distribuidos en diferentes niveles y capas, que trabajan juntos y se orquestan en diferentes funcionalidades. La finalidad de estas pruebas es validar que la integración entre estos componentes sea correcta y encontrar posibles problemas o errores relacionados con la sinergia y comunicación entre ellos. 
+            h4 Pruebas de integración - <i>Perfomance Testing</i>
+            p.mb-0 Estas pruebas se enfocan en validar diferentes módulos o componentes de un producto <i>software</i> de tal manera que se valide como un grupo funcional. Una aplicación de <i>software</i>, un sistema de información o una aplicación <i>web</i>, entre otros productos <i>software</i>, están compuestos por diferentes componentes, módulos y submódulos distribuidos en diferentes niveles y capas, que trabajan juntos y se orquestan en diferentes funcionalidades. La finalidad de estas pruebas es validar que la integración entre estos componentes sea correcta y encontrar posibles problemas o errores relacionados con la sinergia y comunicación entre ellos. 
       .py-3.py-md-4(titulo="Pruebas no funcionales")
         .row.justify-content-center
           .col-lg-3
@@ -367,7 +370,7 @@
       .col-lg-6
         p.mb-0 Son llamados <i>“testers”</i> aquellas personas encargadas de poner a prueba la calidad y el correcto funcionamiento de un producto <i>software</i>; esto se ejecuta por medio de una planificación previa, con la finalidad de mantenerse dentro de los tiempos establecidos y el presupuesto disponible. 
       .col-lg-6
-        h4 Para realizar este rol, es necesario establecer los objetivos y la planeación, con el fin de simplificar, automatizar y agilizar las pruebas que se llevarán a cabo en los ciclos de desarrollo. 
+        p.mb-0 <b>Para realizar este rol, es necesario establecer los objetivos y la planeación, con el fin de simplificar, automatizar y agilizar las pruebas que se llevarán a cabo en los ciclos de desarrollo. </b>
     figure.mb-5 
       img(src='@/assets/curso/tema1/img21.png') 
     p.mb-4 Es posible encontrar diversidad de herramientas que dan soporte, trazabilidad y control a las pruebas de <i>software</i>, y que apoyan el ciclo de vida de la construcción del producto <i>software</i> (conocido como SDLC); estas ayudan a la administración de la documentación, automatización, soporte y los artefactos requeridos para la última etapa, conocida como pruebas de regresión. Todo esto permite un adecuado control del proceso y seguimiento de los avances, gestión de errores, <i>bugs</i> e incidencias, y la generación de informes de acuerdo con las pruebas realizadas. Las herramientas usadas en el proceso de pruebas de <i>software</i> se clasifican teniendo en cuenta la etapa en la cual se encuentra el proyecto. 

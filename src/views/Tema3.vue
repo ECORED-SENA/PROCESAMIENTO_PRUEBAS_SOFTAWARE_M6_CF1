@@ -21,8 +21,8 @@
     p.mb-4 En la actualidad podemos hacer referencia a la ISO/IEC/IEEE 29119-3:2013, en la cual se han definido una serie de ítems acordados internacionalmente para la aplicación y ejecución de pruebas de <i>software</i> para cualquier organización, incluye plantillas y admite las pruebas dinámicas, pruebas funcionales, no funcionales, pruebas manuales, pruebas automatizadas, pruebas con y sin secuencias de comandos. Los artefactos definidos en la ISO/IEC/IEEE 29119-3:2013 se pueden utilizar en cualquier momento del ciclo de vida del desarrollo de <i>software</i>. 
     p.mb-5 La ISO/IEC/IEEE 29119-3:2013 está compuesta de 5 partes:
     figure
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      .video      
+        iframe(width="1255" height="706" src="https://www.youtube.com/embed/w_Ixe1JQsnU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     Separador
 
     #t_3_2.titulo-segundo
@@ -48,7 +48,7 @@
           i Flujo de TDD
         figure
           img(src='@/assets/curso/tema3/img17.svg') 
-          figcaption Nota. Adaptada de Amrani (2019).
+          figcaption Nota. Adaptada de Diaz (2013).
 
     p.mb-5 Amplíe la información sobre cada uno de los pasos del TDD.
 
