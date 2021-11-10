@@ -11,7 +11,7 @@
           figure
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
-        .titulo-segundo
+        .titulo-segundo.color-acento-contenido
           h2 Identificación de los tipos de pruebas de <i>software</i>
         p.mb-4 Evaluar la comprensión de los conceptos, permitiendo que el aprendiz pueda reconocer los diferentes tipos de pruebas de <i>software</i> y cómo se aplicaron.
         .tarjeta.tarjeta--azul.p-3

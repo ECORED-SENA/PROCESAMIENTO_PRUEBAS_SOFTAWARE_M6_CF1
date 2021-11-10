@@ -15,7 +15,7 @@
         p.mb-0 Estos aportan a la mejora de los procesos, entregando recomendaciones de mejores prácticas, teorías y lineamientos aplicables a un contexto determinado, para las pruebas de <i>software</i> también se cuentan con estándares que sirven como guía y referencia.
     Separador
    
-    #t_3_1.titulo-segundo
+    #t_3_1.titulo-segundo.color-acento-contenido
       h2 3.1 Estándares en pruebas de <i>software</i>
     p.mb-4 El objetivo de trabajar bajo un marco de estándares es hacer uso de documentos, artefactos y métodos que han sido validados previamente por entidades y organizaciones a nivel internacional. Entre estos es posible destacar el estándar IEEE-829 de 2008, que posteriormente fue reemplazado por la ISO/IEC/IEEE 29119-3:2013,  la cual será reemplazada por la ISO/IEC/IEEE FDIS 29119-3; esta última está actualmente en desarrollo. 
     p.mb-4 En la actualidad podemos hacer referencia a la ISO/IEC/IEEE 29119-3:2013, en la cual se han definido una serie de ítems acordados internacionalmente para la aplicación y ejecución de pruebas de <i>software</i> para cualquier organización, incluye plantillas y admite las pruebas dinámicas, pruebas funcionales, no funcionales, pruebas manuales, pruebas automatizadas, pruebas con y sin secuencias de comandos. Los artefactos definidos en la ISO/IEC/IEEE 29119-3:2013 se pueden utilizar en cualquier momento del ciclo de vida del desarrollo de <i>software</i>. 
@@ -25,7 +25,7 @@
         iframe(width="1255" height="706" src="https://www.youtube.com/embed/w_Ixe1JQsnU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     Separador
 
-    #t_3_2.titulo-segundo
+    #t_3_2.titulo-segundo.color-acento-contenido
       h2 3.2 <i>Test Driven Development</i>
     .row.justify-content-center.mb-5
       .col-lg-7
@@ -36,8 +36,8 @@
         figure
           img(src='@/assets/curso/tema3/img16.svg') 
     figure.mb-5 
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      .video      
+        iframe(iframe width="1280" height="720" src="https://www.youtube.com/embed/xXL8DXhSjhc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     p.mb-5 Ahora que ya conoce los beneficios que implica aplicar TDD, observe el ciclo completo del proceso, revisando cada uno de sus pasos. En la siguiente figura se puede observar el flujo de manera gráfica: 
 
@@ -94,7 +94,7 @@
               p.mb-0   Cuando se haya completado el ciclo para una funcionalidad, requisito o historia de usuario, se deberá proceder a repetir todo el proceso.
     Separador
 
-    #t_3_3.titulo-segundo
+    #t_3_3.titulo-segundo.color-acento-contenido
       h2 3.3 Documentación de la aplicación de prueba de <i>software</i>
     p.mb-4 La documentación de productos de <i>software</i> son artefactos importantes, que permiten transferir y comunicar aspectos que, al revisar o inspeccionar un sistema, no se pueden entender rápidamente y suelen ser complicados.
     p.mb-5 Esta se puede categorizar en función de las personas, roles o grupos a los cuales está dirigida:
@@ -128,7 +128,7 @@
               img(src='@/assets/curso/tema3/img14.svg')
     Separador
 
-    #t_3_4.titulo-segundo
+    #t_3_4.titulo-segundo.color-acento-contenido
       h2 3.4 Criterio de manejo de lecciones aprendidas
         
     .row.justify-content-center.mb-5

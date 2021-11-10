@@ -16,7 +16,7 @@
           img(src='@/assets/curso/tema5/img01.svg')
     Separador
    
-    #t_5_1.titulo-segundo
+    #t_5_1.titulo-segundo.color-acento-contenido
       h2 5.1 <i>Feature</i>
     .row.justify-content-center.mb-5
       .col-lg-5
@@ -39,7 +39,7 @@
     p.mb-0 Este tipo de programación nace a partir de las limitaciones que la programación orientada a objetos posee en relación con la implementación de una SPL. 
     Separador
 
-    #t_5_2.titulo-segundo
+    #t_5_2.titulo-segundo.color-acento-contenido
       h2 5.2 <i>Issues</i>
     p.mb-5 En el ámbito del desarrollo de <i>software</i>, un <i>issue</i> se constituye en una unidad de trabajo. Puede ser una tarea que busca:
     .row.justify-content-center.mb-5
@@ -143,7 +143,7 @@
     p.mb-0  Cada categoría maneja su propio flujo de trabajo, dado que los tipos no son iguales y posiblemente no manejen los mismos estados.
     Separador
 
-    #t_5_3.titulo-segundo
+    #t_5_3.titulo-segundo.color-acento-contenido
       h2 5.3 <i>Hotfix</i>
 
     div.d-none.d-lg-block
@@ -171,7 +171,7 @@
     
     Separador
 
-    #t_5_4.titulo-segundo
+    #t_5_4.titulo-segundo.color-acento-contenido
       h2 5.4 <i>Bug</i>
 
     div.d-none.d-lg-block

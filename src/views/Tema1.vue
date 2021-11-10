@@ -84,7 +84,7 @@
 
     Separador
 
-    #t_1_1.titulo-segundo
+    #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1 Justificación
 
     .row.justify-content-center.mb-5
@@ -116,7 +116,7 @@
     p.mb-0 En conclusión, es posible decir que entre más pronto se apliquen mecanismos de prueba en el proceso de desarrollo, más fácilmente podrá evitarse que el proyecto se salga del tiempo y presupuesto planeado, pues se podrán detectar los problemas originados en las fases tempranas del proceso, que son los que menor impacto tienen, se debe recordar que a mayor tiempo de desarrollo, mayor impacto al realizar ajustes o cambios. 
     Separador
 
-    #t_1_2.titulo-segundo
+    #t_1_2.titulo-segundo.color-acento-contenido
       h2 1.2 Alcance
     
     p.mb-5 La prueba de <i>software</i> tiene limitaciones, tanto teóricas como prácticas. Desde el punto de vista teórico, la prueba se reconoce como un problema llamado no-decidible; esto significa que no se puede escribir un programa que pruebe completamente los programas sin intervención humana. Sin embargo, algunas pruebas pueden ser automatizables y apoyarse en herramientas para maximizar la búsqueda de fallas o errores importantes con los recursos asignados. 
@@ -133,7 +133,7 @@
           
     Separador
 
-    #t_1_3.titulo-segundo
+    #t_1_3.titulo-segundo.color-acento-contenido
       h2 1.3 Objetivos de las pruebas de <i>software</i>
 
     p.mb-5 La prueba de <i>software</i> es un recurso fundamental para la garantía del correcto funcionamiento del <i>software</i>, entre sus objetivos, se busca garantizar los siguientes aspectos:
@@ -161,7 +161,7 @@
         | Diseñar casos de prueba que sistemáticamente identifiquen diferentes tipos de errores o excepciones, optimizando el tiempo y el esfuerzo. 
     Separador
 
-    #t_1_4.titulo-segundo
+    #t_1_4.titulo-segundo.color-acento-contenido
       h2 1.4 Ciclo de ejecución de las pruebas de <i>software</i>
 
     p.mb-5 La ejecución de pruebas de software está compuesta por diversas actividades, cada una con sus artefactos y ejecutores, con lo cual se busca completar el ciclo de pruebas, las cuales son:
@@ -194,7 +194,7 @@
             p.mb-0 Por último, como resultado se obtienen los defectos, errores u omisiones detectadas en la ejecución de las pruebas o, en caso contrario, las pruebas exitosas a las cuales se puede certificar su nivel de calidad y satisfacción.
     Separador
 
-    #t_1_5.titulo-segundo
+    #t_1_5.titulo-segundo.color-acento-contenido
       h2 1.5 Casos de pruebas y escenarios
     p.mb-5 Los casos de uso tienen un papel fundamental en la construcción de los casos de prueba y escenarios, dado que de ellos se derivan los artefactos y las condiciones necesarias en las cuales serán ejecutadas las pruebas (escenarios); esto permite validar, verificar y/o certificar que se han implementado a cabalidad y con calidad los requisitos funcionales que componen el producto <i>software</i>. 
     
@@ -253,7 +253,7 @@
           p.mb-0 Cuando ya se tengan definidos todos los casos de prueba, estos deberán ser revisados y validados para asegurar su precisión, y así identificar los casos de prueba redundantes u aquellos que posiblemente hayan sido omitidos. Luego, se utilizarán los datos de entrada reales de la prueba y se reemplazarán en la definición del caso de prueba. Estos datos deberán corresponder a datos reales usados en el proceso de ejecución de pruebas. 
     Separador
 
-    #t_1_6.titulo-segundo
+    #t_1_6.titulo-segundo.color-acento-contenido
       h2 1.6 Criterios de aceptación
     p.mb-4 Los criterios de aceptación definen los requisitos del cliente, indicando cómo debe comportarse el producto <i>software</i> para una determinada acción que se pueda llevar a cabo, generalmente por una acción desencadenada por un usuario de la aplicación, respondiendo si se ha construido correctamente el producto o si se ha construido el producto correcto. 
     p.mb-5 Deben describir un contexto, una acción o evento y una consecuencia o respuesta esperada del sistema. La forma más utilizada para describir los criterios de aceptación es la conocida como <i>Given-When-Then</i>. Aquí un ejemplo:
@@ -285,7 +285,7 @@
     p.mb-0 Recuerde: hacer uso de los criterios de aceptación en la definición de requisitos de <i>software</i> o historias de usuario, dependiendo de la metodología empleada, permitirá tener claro el alcance de la implementación y cuándo finaliza, la funcionalidad de lo construido es lo que el cliente requería y, además, lo que el usuario necesita.   
     Separador
 
-    #t_1_7.titulo-segundo
+    #t_1_7.titulo-segundo.color-acento-contenido
       h2 1.7 Niveles de aplicación de las pruebas de <i>software</i>
     .row.justify-content-center.mb-5
       .col-lg-5
@@ -308,7 +308,7 @@
 
     Separador
 
-    #t_1_8.titulo-segundo
+    #t_1_8.titulo-segundo.color-acento-contenido
       h2 1.8 Tipos de pruebas
 
     p.mb-5 Las pruebas de <i>software</i> se pueden clasificar en dos tipos principalmente: 
@@ -363,7 +363,7 @@
     p.mb-0 En conclusión, es posible decir que las pruebas de rendimiento son útiles para verificar el rendimiento del producto <i>software</i>; las pruebas funcionales se aplican para verificar que las funcionalidades están de acuerdo con lo establecido en el documento de requisitos funcionales y hacen lo que en los casos de uso está especificado; las pruebas de integración sirven para verificar la sinergia e integración entre los diferentes componentes y módulos descritos en un producto <i>software</i>; y las pruebas unitarias se definen para comprobar si son correctos los elementos como las clases, funciones, módulos o componentes que son tratados como una unidad. 
     Separador
 
-    #t_1_9.titulo-segundo
+    #t_1_9.titulo-segundo.color-acento-contenido
       h2 1.9 Herramientas y soportes de las pruebas de <i>software</i>
     
     .row.justify-content-center.mb-5

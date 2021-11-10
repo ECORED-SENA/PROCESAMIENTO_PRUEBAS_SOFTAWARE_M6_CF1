@@ -10,7 +10,7 @@
     p.mb-0 Son aquellas que indican qué métodos y técnicas hay que usar en cada fase del ciclo de vida de desarrollo del proyecto; básicamente, son un marco de trabajo usado para planificar, estructurar y controlar los procesos, a medida que va avanzando el proyecto. 
     Separador
    
-    #t_2_1.titulo-segundo
+    #t_2_1.titulo-segundo.color-acento-contenido
       h2 2.1 Metodología cascada
     p.mb-5 Es un proceso lineal, donde se separan los procesos del desarrollo de <i>software</i> en diferentes fases, que son sucesivas en el contexto de la ejecución del proyecto. A diferencia de los modelos iterativos, cada una de las fases se ejecuta una sola vez y el resultado de cada fase es un insumo para la siguiente. 
     
@@ -87,7 +87,7 @@
             p.mb-4 Después de que la fase de prueba haya finalizado con éxito, se autoriza para que la aplicación pase a un ambiente productivo. En esta última etapa, se incluye la entrega, mantenimiento, garantía y mejoras del producto <i>software</i>. 
     Separador
 
-    #t_2_2.titulo-segundo
+    #t_2_2.titulo-segundo.color-acento-contenido
       h2 2.2 Metodología ágil
 
     p.mb-5 La vertiente ágil en el desarrollo de <i>software</i> pretende distribuir de forma permanente y continua el proceso de desarrollo en iteraciones rápidas. Sin embargo, el término “metodología ágil” es engañoso, dado que implica que el enfoque ágil es la única manera de abordar el desarrollo de <i>software</i>. En esta vertiente no se define una serie de pasos o de indicaciones sobre qué hacer en el proceso de desarrollo de <i>software</i>; por el contrario, se trata de una forma de pensar en colaboración los flujos de trabajo, en la cual se definen una serie de valores que orientan las decisiones respecto a lo que se hace y la forma en que se hace.
