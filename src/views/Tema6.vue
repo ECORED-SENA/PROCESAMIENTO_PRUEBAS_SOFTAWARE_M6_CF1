@@ -23,10 +23,10 @@
 
     p.mb-5 Cada entidad puede definir su propio plan de pruebas basado en buenas prácticas:
     
-    .row.justify-content-start.mb-5.position-relative
+    .row.justify-content-center.mb-5.position-relative
       .col-lg-1
-      .col-lg-3   
-        figure.position-relative    
+      .col-lg-3.col-sm-5   
+        figure.position-relative.mb-3   
           img(src='@/assets/curso/tema6/img02.svg')  
           div.position-absolute(style="width:18%; height:15%; top:1%; left:37%" autofocus v-on:click="clickBoton(1)")
           div.position-absolute(style="width:18%; height:15%; top:46%; left:77%" autofocus v-on:click="clickBoton(2)")
@@ -44,6 +44,7 @@
         div.t6-div1.p-4(v-if="mostrardiv==3")
           h4.mb-2 Reporte de prueba
           p.mb-0 Describe los fallos encontrados en el proceso de ejecución de pruebas y las pruebas exitosas.
+      .col-lg-2
     h3 Formatos 
     p.mb-5 Recordemos que el estándar ISO/IEC/IEEE 29119-3:2013 nos provee de una serie de artefactos validados a nivel internacional por las organizaciones a la vanguardia del proceso de desarrollo de <i>software</i> y, a su vez, al margen de la ejecución de pruebas de <i>software</i>. 
     
