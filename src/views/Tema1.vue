@@ -164,7 +164,7 @@
     #t_1_4.titulo-segundo
       h2 1.4 Ciclo de ejecución de las pruebas de <i>software</i>
 
-    p.mb-5 La ejecución de pruebas de software está compuesta por diversas actividades, cada una con sus artefactos y ejecutores, con lo cual se busca completar el ciclo de pruebas, las cuales son
+    p.mb-5 La ejecución de pruebas de software está compuesta por diversas actividades, cada una con sus artefactos y ejecutores, con lo cual se busca completar el ciclo de pruebas, las cuales son:
 
     .tarjeta--gris(style="border-radius: 10px").p-4 
       LineaTiempoC.color-secundario(text-small)

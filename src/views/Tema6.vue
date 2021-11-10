@@ -25,34 +25,25 @@
     
     .row.justify-content-start.mb-5.position-relative
       .col-lg-1
-      .col-lg-3
-        ImagenInfografica.color-secundario.mb-5
-          template(v-slot:imagen)
-            figure
-              img(src='@/assets/curso/tema6/img02.svg', alt='Texto que describa la imagen')              
-
-          .tarjeta.p-3(x="40%" y="13%" numero="1")
-            div.t6-div1.p-4
-              h4.mb-2  El plan de prueba
-              p.mb-4 Denota todos los procedimientos y métodos que serán empleados para la certificación del <i>software</i>, determinando si este cumple con las especificaciones presentadas en los requisitos y dadas por el cliente. 
-              p.mb-0 Este incluye los objetivos de calidad, los recursos, cronograma, asignaciones, métodos, entre otros.
-
-          .tarjeta.p-3(x="86%" y="45%" numero="2")
-            div.t6-div1.p-4
-              h4.mb-2  Casos de prueba
-              p.mb-0 Lista los ítems que serán certificados y describe detalladamente los pasos que serán ejecutados para evaluar la verificación de las funcionalidades del producto software. Este incluye los objetivos de calidad, los recursos, cronograma, asignaciones, métodos, entre otros.
-      
-          .tarjeta.p-3(x="65%" y="80%" numero="2")
-            div.t6-div1.p-4
-              h4.mb-2  Reporte de prueba
-              p.mb-0 Describe los fallos encontrados en el proceso de ejecución de pruebas y las pruebas exitosas.
-      .col-lg-7
-      //.col-lg-6.d-flex.align-items-center
-        div.t6-div1.p-4
+      .col-lg-3   
+        figure.position-relative    
+          img(src='@/assets/curso/tema6/img02.svg')  
+          div.position-absolute(style="width:18%; height:15%; top:1%; left:37%" autofocus v-on:click="clickBoton(1)")
+          div.position-absolute(style="width:18%; height:15%; top:46%; left:77%" autofocus v-on:click="clickBoton(2)")
+          div.position-absolute(style="width:18%; height:15%; top:80%; left:47%" autofocus v-on:click="clickBoton(3)")
+      .col-lg-6.d-flex.align-items-center
+        div.t6-div1.p-4(v-if="mostrardiv==1")
           h4.mb-2  El plan de prueba
           p.mb-4 Denota todos los procedimientos y métodos que serán empleados para la certificación del <i>software</i>, determinando si este cumple con las especificaciones presentadas en los requisitos y dadas por el cliente. 
           p.mb-0 Este incluye los objetivos de calidad, los recursos, cronograma, asignaciones, métodos, entre otros.
 
+        div.t6-div1.p-4(v-if="mostrardiv==2")
+          h4.mb-2  Casos de prueba
+          p.mb-0 Lista los ítems que serán certificados y describe detalladamente los pasos que serán ejecutados para evaluar la verificación de las funcionalidades del producto software.
+
+        div.t6-div1.p-4(v-if="mostrardiv==3")
+          h4.mb-2 Reporte de prueba
+          p.mb-0 Describe los fallos encontrados en el proceso de ejecución de pruebas y las pruebas exitosas.
     h3 Formatos 
     p.mb-5 Recordemos que el estándar ISO/IEC/IEEE 29119-3:2013 nos provee de una serie de artefactos validados a nivel internacional por las organizaciones a la vanguardia del proceso de desarrollo de <i>software</i> y, a su vez, al margen de la ejecución de pruebas de <i>software</i>. 
     
@@ -94,7 +85,7 @@
 export default {
   name: 'Tema6',
   data: () => ({
-    // variables de vue
+    mostrardiv: 1,
   }),
   mounted() {
     this.$nextTick(() => {
@@ -103,6 +94,11 @@ export default {
   },
   updated() {
     this.$aosRefresh()
+  },
+  methods: {
+    clickBoton: function(capa) {
+      this.mostrardiv = capa
+    },
   },
 }
 </script>
